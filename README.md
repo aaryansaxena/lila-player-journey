@@ -139,13 +139,13 @@ For Streamlit Cloud, data files must be committed to git or downloaded at runtim
 
 ## Validation Checklist
 
-- ✅ Player paths render correctly on minimap
-- ✅ Humans (blue circles) vs bots (red diamonds) visually distinct
-- ✅ Event types marked distinctly (kill, death, loot, storm)
-- ✅ Filtering by map, date, match works
-- ✅ Timeline slider shows match progression (0.0-0.8s range)
-- ✅ Heatmap overlays (kill/death/traffic) with semi-transparency
-- ✅ Coordinates validated via pixel range (0-1024)
+- Player paths render correctly on minimap
+- Humans (blue circles) vs bots (red diamonds) visually distinct
+- Event types marked distinctly (kill, death, loot, storm)
+- Filtering by map, date, match works
+- Timeline slider shows match progression (0.0-0.8s range)
+- Heatmap overlays (kill/death/traffic) with semi-transparency
+- Coordinates validated via pixel range (0-1024)
 
 ## Test Data
 
