@@ -140,7 +140,7 @@ See ARCHITECTURE.md for detailed coordinate validation.
 ### Streamlit Cloud (Recommended)
 
 1. Push code to GitHub
-2. Go to https://share.streamlit.io
+2. Go to https://lila-player-journey-game.streamlit.app/
 3. Sign in with GitHub
 4. Select your repo → branch → `src/app.py`
 5. Streamlit Cloud automatically handles dependencies and runs the app
