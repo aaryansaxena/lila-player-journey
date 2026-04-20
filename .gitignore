@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.local
+
+# OS
+.DS_Store
+desktop.ini
+
+# Raw data (usually large; processed data is committed)
+data/raw/
+*.nakama-0
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
