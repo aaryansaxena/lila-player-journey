@@ -93,7 +93,7 @@ def process_all_data(input_dir, output_file):
 
 if __name__ == "__main__":
     # Update these paths to match your local setup exactly
-    RAW_DATA_DIR = r'C:\Users\rj\OneDrive\Desktop\lila-player-journey\data\raw\player_data\player_data'
+    RAW_DATA_DIR = r'C:\Users\rj\OneDrive\Desktop\lila-player-journey\data\raw\player_data\player data'
     OUTPUT_FILE = r'data\processed\master_data.parquet'
     
     process_all_data(RAW_DATA_DIR, OUTPUT_FILE)

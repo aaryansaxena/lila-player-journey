@@ -91,7 +91,7 @@ lila-player-journey/
 
 ## Data Processing Pipeline
 
-1. **Ingest**: `process_data.py` recursively reads all `.nakama-0` parquet files from `data/raw/player_data/`
+1. **Ingest**: `process_data.py` recursively reads all `.nakama-0` parquet files from `data/raw/player_data/player data/`
 2. **Decode**: Converts `event` field from bytes to UTF-8 strings
 3. **Classify**: Identifies bots (numeric user_id < 10 chars) vs humans (UUID)
 4. **Transform**: Applies world-to-pixel coordinate mapping for each map
